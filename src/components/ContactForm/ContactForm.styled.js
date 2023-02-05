@@ -7,8 +7,9 @@ export const ContactsForm = styled(Form)`
   flex-direction: column;
   gap: 20px;
   width: 400px;
-  border: 1px solid black;
+  border: none;
   padding: 15px;
+ 
 `;
 
 export const ForlLabel = styled.label`
