@@ -11,7 +11,7 @@ export const ContactList = ({ visibleContacts, onDeleteContact }) => {
       {visibleContacts.map(({ id, name, number }) => {
         return (
           <ContactItem key={id}>
-            {/* <span>&#128241;</span> */}
+            {/* <span>&#128246;</span> */}
             <div>
               <ContactName>{name}</ContactName> : {number}
             </div>
